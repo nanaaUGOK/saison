@@ -1,108 +1,45 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <title>contact</title>
-    <link rel="stylesheet" href="base.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/fex3kwc.css">
+    <meta charset="utf-8">
+    <title>nanaaa-ugok</title>
+    <link rel="stylesheet" href="stylesheet.css"><!-- css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&display=swap" rel="stylesheet"><!-- 見出しのフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400&display=swap" rel="stylesheet"><!-- 全文のフォント -->
   </head>
 </html>
 
-<body>
-  <header>
-    <h1>saison</h1>
-
-    <div class="hamburger-menu">
-      <input type="checkbox" id="menu-btn-check">
-      <label for="menu-btn-check" class="menu-btn"><span></span></label>
-      <!--ここからメニュー-->
-      <div class="menu-content">
+  <body>
+    <header>
+      <nav>
         <ul>
-            <li>
-                <a href="index.html">top</a>
-            </li>
-            <li>
-                <a href="service.html">service</a>
-            </li>
-            <li>
-                <a href="product.html">product</a>
-            </li>
-            <li>
-              <a href="#">contact</a>
-          </li>
+          <li class="click"><a href="#about">アバウト</a></li>
+          <li><a href="#work">ワーク</a></li>
+          <li><a href="https://twitter.com/nanaaa_ugok">Twitter</a></li>
         </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <img src="./image/back1.jpg">
+      <p>菜々 の ポートフォリオ</p>
     </div>
-    <!--ここまでメニュー-->
-  </div>
-    </nav>
-    
-  </header>
 
-  <main>
-    <div class="example1">
-      <img src="./headline/head4.jpg" class="mainPhoto">
-        <p>contact</p>	
+    <main>
+      <h1><a id="about">アバウト</a></h1>
+      <div class="detail">
+        <img src="./image/nana.JPG">
+      <p>UGOKメンバーの1人。</br>html・css・Bubbleなどの勉強をしている3年生です。</p>
       </div>
-    <section>
+      
+      <h1><a id="work">ワーク</a></h1>
+      <p><img src="./image/kangaeruhito.png">作成中・・・</p>
+    </main>
 
-      <div class="Form">
-        <div class="Form-Item">
-        <p class="Form-Item-Label">
-        <span class="Form-Item-Label-Required">必須</span>内容
-        </p>
-        <label>
-          <input type="radio" name="content">
-          お花・花束の購入について
-        </label>
-        <label>
-          <input type="radio" name="content">
-          問い合わせ
-        </label>
-        <label>
-          <input type="radio" name="content">
-          その他
-        </label>
-        </div>
-        <div class="Form-Item">
-        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
-        <input type="text" class="Form-Item-Input" placeholder="山田　太郎">
-        </div>
-        <div class="Form-Item">
-        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>ふりがな</p>
-        <input type="text" class="Form-Item-Input" placeholder="やまだ　たろう">
-        </div>
-        <div class="Form-Item">
-        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
-        <input type="email" class="Form-Item-Input" placeholder="info@saison.com">
-        </div>
-        <div class="Form-Item">
-          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス確認</p>
-          <input type="email" class="Form-Item-Input" placeholder="info@saison.com">
-          </div>
-        <div class="Form-Item">
-          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
-          <input type="email" class="Form-Item-Input" placeholder="090-0000-0000">
-        </div>
-        <div class="Form-Item">
-          <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
-          <textarea class="Form-Item-Textarea"></textarea>
-        </div>
-        <input type="button" onclick="location.href='./index.html'" class="Form-Btn" value="送信">
-        </div>
-        
-    </section>
+  </body>
 
-  </main>
-  
-</body>
-
-<footer>
-  <div class="footer02">
-    <p class="copyright">
-      saison
-    </p>
-    <p>
-      TEL: (xxx)-xxx-xxxx
-    </p>
-  </div>
-</footer>
+  <footer>© 2022 制作 菜々</footer>
